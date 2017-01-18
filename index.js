@@ -23,6 +23,8 @@ const xform = require('mali-transform')
  *   ctx.res = obj // password will not be in the payload to client
  * }
  *
- * app.use('fn', toObject, handler)
+ * app.use('fn', toObject(), handler)
  */
-module.exports = xform('toObject')
+module.exports = function () {
+  return xform('toObject')
+}
