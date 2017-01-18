@@ -1,6 +1,6 @@
 {
   "name": "mali-toobject",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Mali middleware that automatically calls toObject on response",
   "main": "index.js",
   "repository": {
