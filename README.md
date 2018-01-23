@@ -1,6 +1,8 @@
 <a name="module_mali-toobject"></a>
 
 ### mali-toobject
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/malijs/toobject.svg)](https://greenkeeper.io/)
 Mali <code>toObject</code> middleware. If the response object has a <code>toObject</code> function it's executed
 upon payload. Only applies for <code>UNARY</code> and <code>REQUEST_STREAM</code> call types.
 
