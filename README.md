@@ -1,13 +1,12 @@
-<a name="module_mali-toobject"></a>
+<a name="module_@malijs/toobject"></a>
 
-### mali-toobject
+### @malijs/toobject
 Mali <code>toObject</code> middleware. If the response object has a <code>toObject</code> function it's executed
 upon payload. Only applies for <code>UNARY</code> and <code>REQUEST_STREAM</code> call types.
 
 **Example**  
-
 ```js
-const toObject = require('mali-toobject')
+const toObject = require('@malijs/toobject')
 
 function handler(ctx) {
   const obj = {

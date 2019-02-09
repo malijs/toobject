@@ -1,12 +1,12 @@
-const xform = require('mali-transform')
+const xform = require('@malijs/transform')
 
 /**
  * Mali <code>toObject</code> middleware. If the response object has a <code>toObject</code> function it's executed
  * upon payload. Only applies for <code>UNARY</code> and <code>REQUEST_STREAM</code> call types.
- * @module mali-toobject
+ * @module @malijs/toobject
  *
  * @example
- * const toObject = require('mali-toobject')
+ * const toObject = require('@malijs/toobject')
  *
  * function handler(ctx) {
  *   const obj = {
